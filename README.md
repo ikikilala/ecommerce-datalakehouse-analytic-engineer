@@ -48,12 +48,12 @@ This project involves:
 ### Building the Data Lakehouse (Data Engineering)
 
 #### Objective
-Develop a data lakehouse using **Databricks** to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a data lakehouse using Databricks to ingest, cleanse, transform, and structure sales data into analytical-ready datasets, enabling analytical reporting and data-driven decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from one source systems provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Designed for analytical queries.
+- **Data Sources**: Import sales data from a single source system provided in CSV format.
+- **Data Quality**: Cleanse, transform, and resolve data quality issues before analysis.
+- **Integration**: Integrate and structure data to support analytical queries and reporting.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
