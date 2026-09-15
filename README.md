@@ -1,27 +1,73 @@
 # E-Commerce Data Lakehouse (Engineering + Analytics)
 
 Welcome to the **E-Commerce Data Lakehouse (Engineering + Analytics)** repository! 🚀  
-This project demonstrates a comprehensive data engineering and analytics solution. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+This project designed as a portfolio demonstrates a comprehensive data engineering and analytics solution.
 
 ---
-## 🏗️ Data Architecture
+## 🏗️ Architecture
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into **Databricks**.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+This project follows the **Medallion Architecture**:
+
+### 🥉 Bronze Layer
+- Raw data ingestion  
+- Schema inference and storage as Delta tables  
+
+### 🥈 Silver Layer
+- Data cleaning and standardization  
+- Type casting and validation  
+
+### 🥇 Gold Layer
+- Dimensional Data Model (Business Transformation)
+- Ready for BI and analysis 
 
 ---
+
+## 🛠️ Technologies Used
+
+- Databricks  
+- Apache Spark  
+- PySpark  
+- Spark SQL  
+- Delta Lake  
+- Unity Catalog  
+
+---
+
 ## 📖 Project Overview
 
 This project involves:
 
 1. **Data Architecture**: Designing a Data Lakehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the lakehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+3. **Data Analytics and Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
 
+## 🚀 Project Requirements
+
+### Building the Data Lakehouse (Data Engineering)
+
+#### Objective
+Develop a data lakehouse using **Databricks** to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from one source systems provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Designed for analytical queries.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Daily Revenue**
+- **Top Performing Product**
+- **Best Selling SKU**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ## 📂 Repository Structure
 ```
@@ -34,7 +80,7 @@ data-lakehouse-project/
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │
-├── scripts/                            # python/pyspark scripts for ETL and transformations
+├── code/                               # python/pyspark scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
