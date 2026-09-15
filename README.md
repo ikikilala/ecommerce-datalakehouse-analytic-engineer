@@ -98,7 +98,9 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Hi there! I'm **Amirul Zikry**, a Digital Marketing professional with a strong interest in **Data Engineering and Data Analytics**. With a background in Computer Science and hands-on experience in data-driven marketing, I’m currently seeking an opportunity to transition into the data field and build my career as a **Data Engineer / Data Analyst**.
+Hi there! **I'm Amirul Zikry**, a Digital Marketing professional transitioning into **Data Engineering**. With a background in **Computer Science** and hands-on experience working with data-driven marketing campaigns, I developed a strong interest in building data pipelines, transforming raw data, and creating reliable datasets for analytics.
+
+I’m currently building my skills in **SQL**, **Python**, **PySpark**, **Databricks**, and **Data Lakehouse** architecture, with a focus on developing practical data engineering projects and applying data engineering concepts to real-world use cases.
 
 Let's stay in touch! Feel free to connect with me on the following platform:
 
