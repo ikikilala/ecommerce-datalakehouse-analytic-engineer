@@ -73,17 +73,17 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 data-lakehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│
-├── code/                               # python/pyspark scripts for ETL and transformations
+├── code/                               # python/sql scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
+│
+├── datasets/                           # Raw datasets used for the project
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── ecommerce-etl-pipleline.png     # Screenshot of ETL Pipeline in Databricks
+│   ├── ecommerce-sales-dashboard.png   # Screenshot of Dashboard in Power BI
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │
 ├── tests/                              # Test scripts and quality files
 │
@@ -91,6 +91,13 @@ data-lakehouse-project/
 └── LICENSE                             # License information for the repository
 ```
 ---
+## 🚀 Results
+
+### ETL Pipeline (Databricks)
+![Results](docs/ecommerce-etl-pipeline.png)
+
+### Dashboard (Power BI)
+![Results](docs/ecommerce-sales-dashboard.png)
 
 ## 🛡️ License
 
