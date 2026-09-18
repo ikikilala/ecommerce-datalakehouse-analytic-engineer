@@ -5,7 +5,7 @@ This project designed as a portfolio demonstrates a comprehensive data engineeri
 
 ---
 ## 🏗️ Architecture
-
+![Architecture](docs/ecommerce-data-architecture.png)
 This project follows the **Medallion Architecture**:
 
 ### 🥉 Bronze Layer
